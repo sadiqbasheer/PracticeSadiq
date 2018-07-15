@@ -126,4 +126,10 @@ public class FindLeadsInputPages extends WebDriverServiceImpl{
 		verifyExactText(eleSearchResult,"No records to display");
 		return this;
 	}
+	public FindLeadsInputPages verifySearchMessage12345()
+	{
+		verifyExactText(eleSearchResult,"No records to display");
+		return this;
+	}
+	
 }
